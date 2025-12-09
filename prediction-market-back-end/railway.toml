@@ -1,5 +1,5 @@
 [build]
-dockerfilePath = "prediction-market-back-end/Dockerfile"
+dockerfilePath = "Dockerfile.backend"
 watchPatterns = ["prediction-market-back-end/**", "packages/shared-types/**"]
 
 [deploy]

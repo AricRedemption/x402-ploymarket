@@ -63,6 +63,8 @@ temp/
 # Keys and wallets (for Solana development)
 keys/
 *.json
+# But include IDL files needed for deployment
+!**/idl/*.json
 
 # Test ledger
 test-ledger/
